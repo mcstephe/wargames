@@ -1,0 +1,6 @@
+C:\Users\steve\OneDrive\documents\visual studio 2017\Projects\CodeWars\CodeWars\bin\Debug\netcoreapp1.1\CodeWars.deps.json
+C:\Users\steve\OneDrive\documents\visual studio 2017\Projects\CodeWars\CodeWars\bin\Debug\netcoreapp1.1\CodeWars.runtimeconfig.json
+C:\Users\steve\OneDrive\documents\visual studio 2017\Projects\CodeWars\CodeWars\bin\Debug\netcoreapp1.1\CodeWars.runtimeconfig.dev.json
+C:\Users\steve\OneDrive\documents\visual studio 2017\Projects\CodeWars\CodeWars\bin\Debug\netcoreapp1.1\CodeWars.dll
+C:\Users\steve\OneDrive\documents\visual studio 2017\Projects\CodeWars\CodeWars\obj\Debug\netcoreapp1.1\CodeWars.csprojResolveAssemblyReference.cache
+C:\Users\steve\OneDrive\documents\visual studio 2017\Projects\CodeWars\CodeWars\obj\Debug\netcoreapp1.1\CodeWars.AssemblyInfo.cs

